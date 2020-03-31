@@ -32,7 +32,6 @@ import Partial from "../components/partial.js"
 import Image from "../layout/image"
 import ChecklistItem from "../components/checklistItem"
 import ReviewDate from "../components/reviewDate"
-import ResourceSelector from "../components/resourceSelector"
 
 const shortcodes = {
   Callout,
@@ -56,7 +55,6 @@ const shortcodes = {
   ChecklistItem,
   Image,
   ReviewDate,
-  ResourceSelector,
 }
 
 class GuideTemplate extends React.Component {
